@@ -1,7 +1,6 @@
 .white {
     color: white;
 }
-
 nav {
     height: 70px;
     background-color: #2C3E50;
@@ -11,9 +10,31 @@ nav ul li .white {
     font-size: 14px;
 }
 
-.jumbo {
-    height: 450px;
+section {
+    padding: 40px 0;
+}
+
+#jumbo {
+    margin-top: 70px;
     background-color: #1ABC9C;
+}
+
+#jumbo img {
+    width: 200px;
+}
+
+#jumbo .line {
+    background-color: #fff;
+}
+
+.star-line i {
+    margin: 0 3%;
+    font-size: 20px;
+}
+
+.line {
+    height: 3px;
+    width: 15%; 
 }
 
 #portfolio img {
