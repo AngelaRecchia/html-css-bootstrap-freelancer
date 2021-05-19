@@ -1,6 +1,14 @@
+.white {
+    color: white;
+}
+
 nav {
     height: 70px;
     background-color: #2C3E50;
+}
+
+nav ul li .white {
+    font-size: 14px;
 }
 
 .jumbo {
@@ -8,7 +16,7 @@ nav {
     background-color: #1ABC9C;
 }
 
-#pics img {
+#portfolio img {
     width: 100%;
     border-radius: 10px;
 }
@@ -36,7 +44,6 @@ nav {
     .container_big {
         width: 70%;
         height: 100%;
-        background-color: darkred;
     }
     
     .container_small {

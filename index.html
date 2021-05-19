@@ -10,102 +10,117 @@
 </head>
 <body>
     
-    <div class="container-fluid px-0">
+     <!-- intestazione con menu e jumbotron -->
+     <header>
 
-        <!-- intestazione con menu e jumbotron -->
-        <header>
-
-            <nav>
-                <div class="container container_big mx-auto"></div>
-            </nav>
-
-            <div class="jumbo">
-                <div class="container container_big mx-auto"></div>
+        <nav class="navbar navbar-expand-lg navbar-dark text-uppercase fixed-top">
+            <div class="container container_big mx-auto">
+              <a class="navbar-brand" href="#"><span class="white fw-bold">Start Bootstrap</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#portfolio"><span class="white">Portfolio</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about"><span class="white">About</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact"><span class="white">Contact</span></a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            
-        </header>
+          </nav>
 
-        <!-- contenitore principale con immagini, sezione about e form per contatti -->
-        <main>
+        <div class="jumbo">
+            <div class="container container_big mx-auto"></div>
+        </div>
+        
+    </header>
 
-            <!-- main content -->
-            <div id="pics" class="container container_big mx-auto py-5">
+    <!-- contenitore principale con immagini, sezione about e form per contatti -->
+    <main>
 
-                <div class="row gy-4">
+        <!-- main content -->
+        <div id="portfolio" class="container container_big mx-auto py-5">
 
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <img src="img/cabin.png" alt="cabin">
-                    </div>
+            <div class="row gy-4">
 
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <img src="img/cake.png" alt="cake">
-                    </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="img/cabin.png" alt="cabin">
+                </div>
 
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <img src="img/circus.png" alt="circus">
-                    </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="img/cake.png" alt="cake">
+                </div>
 
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <img src="img/game.png" alt="game">
-                    </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="img/circus.png" alt="circus">
+                </div>
 
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <img src="img/safe.png" alt="safe">
-                    </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="img/game.png" alt="game">
+                </div>
 
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <img src="img/submarine.png" alt="submarine">
-                    </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="img/safe.png" alt="safe">
+                </div>
 
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="img/submarine.png" alt="submarine">
                 </div>
 
             </div>
 
-            <!-- about -->
-            <div id="about">
+        </div>
 
-                <div class="container container_small mx-auto">
-                    <div class="row">
+        <!-- about -->
+        <div id="about">
 
-                        <div class="col-12 col-md-6"></div>
+            <div class="container container_small mx-auto">
+                <div class="row">
 
-                        <div class="col-12 col-md-6"></div>
+                    <div class="col-12 col-md-6"></div>
 
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- contact -->
-            <div id="contact">
-
-                <div class="container container_small mx-auto"></div>
-
-            </div>
-
-        </main>
-
-        <!-- footer -->
-        <footer>
-
-            <div id="footer_top" class="container-fluid">
-
-                <div class="container container_big mx-auto">
-
-                    <div class="location"></div>
-                    <div class="around"></div>
-                    <div class="about"></div>
+                    <div class="col-12 col-md-6"></div>
 
                 </div>
+            </div>
+
+        </div>
+
+        <!-- contact -->
+        <div id="contact">
+
+            <div class="container container_small mx-auto"></div>
+
+        </div>
+
+    </main>
+
+    <!-- footer -->
+    <footer>
+
+        <div id="footer_top" class="container-fluid">
+
+            <div class="container container_big mx-auto">
+
+                <div class="location"></div>
+                <div class="around"></div>
+                <div class="about"></div>
 
             </div>
 
-            <div id="footer_bottom" class="container-fluid">
-                <div class="copyr"></div>
-            </div>
+        </div>
 
-        </footer>
-    </div>
+        <div id="footer_bottom" class="container-fluid">
+            <div class="copyr"></div>
+        </div>
+
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
