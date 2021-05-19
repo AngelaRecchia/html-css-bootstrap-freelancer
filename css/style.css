@@ -59,6 +59,30 @@ section {
     border-radius: 10px;
 }
 
+#portfolio .row > *{
+    position: relative;
+}
+
+.layover {
+    display: none;
+    width: calc(100% - 24px);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.layover i {
+    font-size: 125px;
+}
+
+#portfolio .row > *:hover .layover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #about {
     color: white;
     background-color: #1ABC9C;
@@ -67,10 +91,6 @@ section {
 .download {
     width: 110px;
     font-size: 14px;
-}
-
-#contact {
-    margin-bottom: 3%;
 }
 
 form input, form textarea {
