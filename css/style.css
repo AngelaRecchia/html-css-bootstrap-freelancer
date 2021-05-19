@@ -1,6 +1,11 @@
 .white {
     color: white;
 }
+
+h2 {
+    color: #333333;
+}
+
 nav {
     height: 70px;
     background-color: #2C3E50;
@@ -35,6 +40,14 @@ section {
 .line {
     height: 3px;
     width: 15%; 
+}
+
+#portfolio {
+    color: #2C3E50;
+}
+
+#portfolio .line {
+    background-color: #2C3E50;
 }
 
 #portfolio img {
