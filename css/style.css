@@ -16,7 +16,7 @@ nav ul li .white {
 }
 
 section {
-    padding: 40px 0 20px;
+    padding: 4% 0 3%;
 }
 
 #jumbo {
@@ -46,11 +46,11 @@ section {
     color: #333333;
 }
 
-#portfolio {
+#portfolio, #contact {
     color: #2C3E50;
 }
 
-#portfolio .line {
+#portfolio .line, #contact .line {
     background-color: #2C3E50;
 }
 
@@ -69,8 +69,31 @@ section {
     font-size: 14px;
 }
 
-#contact {
-    height: 400px;
+form input, form textarea {
+    width: 100%;
+    padding: 20px 0;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    color: #2C3E50;
+    font-size: 20px;
+}
+
+form textarea {
+    height: 150px;
+    min-height: 72px;
+}
+
+::placeholder {
+    color: #2C3E50;
+}
+
+form input:focus-visible {
+    outline: none;
+}
+
+.btn-color {
+    background-color: #1ABC9C;
+    color: white;
 }
 
 #footer_top {
