@@ -69,6 +69,10 @@ section {
     font-size: 14px;
 }
 
+#contact {
+    margin-bottom: 3%;
+}
+
 form input, form textarea {
     width: 100%;
     padding: 20px 0;
@@ -96,14 +100,41 @@ form input:focus-visible {
     color: white;
 }
 
+footer a,footer a:hover, footer a:active {
+    color: #1ABC9C;
+    text-decoration: none;
+}
+
 #footer_top {
-    height: 150px;
     background-color: #3A546D;
+    padding: 30px 0;
+}
+
+#footer_top .row > * {
+    margin: 20px 0
+}
+
+.logo {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.logo i {
+    line-height: 40px;
+}
+
+.logo:hover {
+    background-color: #fff;
+    color: black;
 }
 
 #footer_bottom {
-    height: 80px;
     background-color: #2C3E50;
+    font-size: 12px;
+    padding: 30px 0;
 }
 
 @media screen and (min-width: 768px) {
