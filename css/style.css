@@ -1,9 +1,9 @@
-.white {
-    color: white;
+.container_small {
+    width: 60%;
 }
 
-h2 {
-    color: #333333;
+.white {
+    color: white;
 }
 
 nav {
@@ -16,7 +16,7 @@ nav ul li .white {
 }
 
 section {
-    padding: 40px 0;
+    padding: 40px 0 20px;
 }
 
 #jumbo {
@@ -28,7 +28,7 @@ section {
     width: 200px;
 }
 
-#jumbo .line {
+#jumbo .line, #about .line {
     background-color: #fff;
 }
 
@@ -40,6 +40,10 @@ section {
 .line {
     height: 3px;
     width: 15%; 
+}
+
+#portfolio h2, #contact h2 {
+    color: #333333;
 }
 
 #portfolio {
@@ -56,8 +60,13 @@ section {
 }
 
 #about {
-    height: 300px;
+    color: white;
     background-color: #1ABC9C;
+}
+
+.download {
+    width: 110px;
+    font-size: 14px;
 }
 
 #contact {
@@ -77,13 +86,6 @@ section {
 @media screen and (min-width: 768px) {
     .container_big {
         width: 70%;
-        height: 100%;
-    }
-    
-    .container_small {
-        width: 60%;
-        height: 100%;
-        background-color: darkorange;
     }
     
 }
